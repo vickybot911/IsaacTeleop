@@ -5,14 +5,20 @@ System Requirements
 Hardware requirements
 ----------------------
 
-**Minimum**
+**Teleoperation directly to real robots**
 
 For real robot teleop & data collection:
 
 - **CPU**: x86 or ARM (Jetson Thor)
 - **GPU**: NVIDIA GPU required
 
-**Simulation Ready**
+**Teleoperation to real robots with extra input devices**
+
+When using extra input devices (such as Manus Gloves, Logitech Rudder Pedals, OAK-D Camera, etc.), the minimum
+requirements are:
+
+
+**Teleoperation with Isaac Sim and Isaac Lab**
 
 For running simulation with Isaac Sim and Isaac Lab with RTX rendering:
 
